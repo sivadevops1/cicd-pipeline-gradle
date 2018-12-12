@@ -11,7 +11,7 @@ pipeline {
    stage ('Checkout') {
     steps {
       echo 'Checking or cloning https://github.com/sivadevops1/dataPrepare.git'
-      git clone https://github.com/sivadevops1/dataPrepare.git
+      git clone 'https://github.com/sivadevops1/dataPrepare.git'
     }
  }
 }
