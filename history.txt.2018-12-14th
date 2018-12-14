@@ -1,0 +1,928 @@
+    1  clear
+    2  pwd
+    3  docker run hello-world
+    4  /usr/bin/docker-current run --help
+    5  clear
+    6  docker images
+    7  PS1="[\u@\h \W Sys2]\$"
+    8  clear
+    9  docker ps
+   10  docker images
+   11  docker --help
+   12  docker images --help
+   13  docker images -f --help
+   14  docker images  --help
+   15  docker --help
+   16  docker image --help
+   17  docker image ls
+   18  cler
+   19  clear
+   20  docker --vesion
+   21  docker -vesion
+   22  clear
+   23  dpcker --version
+   24  docker --version
+   25  docker info
+   26  clear
+   27  docker container ls --all
+   28  docker image ls --all
+   29  docker container --help
+   30  docker container ls --help
+   31  docker container ls -latest
+   32  docker container ls --latest
+   33  docker container ls --size
+   34  clear
+   35  ls
+   36  uname -a
+   37  clear
+   38  pwd
+   39  sudo yum install -y git
+   40  clear
+   41  pwd
+   42  git --version
+   43  ssh-keygen -t rsa -b 4096
+   44  clear
+   45  git  config --global user.name Siva.Sunku
+   46  git  config --global user.email siva.sunku.public@gmail.com
+   47  sudo yum -y install unzip java-1.8.0-openjdk
+   48  java -version
+   49  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+   50  cat .ssh/id_rsa.pub 
+   51  java -version
+   52  clear
+   53  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+   54  cd cicd-pipeline-gradle/
+   55  ls
+   56  ./gradlew init
+   57  gradle --version
+   58  ./gradlew --version
+   59  clear
+   60  ./gradlew build
+   61  sudo yum -y install epel-release
+   62  sudo yum -y install wget
+   63  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+   64  clear
+   65  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+   66  sudo yum -y install -y jenkins-2.121.1
+   67  vi /etc/sysconfig/jenkins
+   68  sudo vi /etc/sysconfig/jenkins
+   69  sudo chown -R root:root /var/lib/jenkins
+   70  sudo chown -R root:root /var/cache/jenkins
+   71  sudo chown -R root:root /var/log/jenkins
+   72  cler
+   73  sudo systemctl enable jenkins
+   74  sudo systemctl start  jenkins
+   75  ps -ef | grep jenkins
+   76  clear
+   77  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   78  cat Jenkinsfile 
+   79  ls
+   80  rm jenkinsfile 
+   81  git status
+   82  git commit -m "deleted jenkins"
+   83  git add *
+   84  git commit -m "deleted jenkins"
+   85  git remote
+   86  git push -m origin master
+   87  git push
+   88   git config --global push.default matching
+   89  git config --global push.default simple
+   90  git push
+   91  clear
+   92  git push -u origin master
+   93  git commit -m "New code added"
+   94  git  config --global user.name 
+   95  git config --global push.default simple
+   96  git bash
+   97  git branch
+   98  git remote
+   99  git diff
+  100  clear
+  101  ls
+  102  git status
+  103  git push -u origin master
+  104  git push
+  105  vi Jenkinsfile
+  106  git add *
+  107   git status
+  108  git commit -m "Additional change"
+  109  git push -u origin master
+  110  git remote add origin git@github.com:sivadevops1/cicd-pipeline-gradle
+  111  git remote origin
+  112  git remote 
+  113  git push
+  114  git checkout 
+  115  git push origin master:master
+  116  git checkout mybranch
+  117  git branch
+  118  git push origin master
+  119  git reset
+  120  clear
+  121  git remote
+  122  git branc
+  123  git branch
+  124  git status
+  125  git push 
+  126  cd ..
+  127  rm -r cicd-pipeline-gradle/
+  128  git clone https://github.com/sivadevops1/cicd-pipeline-gradle.git
+  129  clear
+  130  git init
+  131  ls
+  132  git status
+  133  rm -r cicd-pipeline-gradle/
+  134  man rm
+  135  rm -rf cicd-pipeline-gradle/
+  136  ls
+  137  git cone https://github.com/sivadevops1/cicd-pipeline-gradle.git
+  138  clear
+  139  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  140  ls
+  141  cd cicd-pipeline-gradle/
+  142  git status
+  143  rm jenkinsfile 
+  144  vi Jenkinsfile 
+  145  git status
+  146  git commit -m "check"
+  147  git checkout master
+  148  git checkout mystage
+  149  cp Jenkinsfile ../.
+  150  cd ..
+  151  rm -r -f cicd-pipeline-gradle/
+  152  clear
+  153  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  154  git checkout -b mybranch
+  155  cd cicd-pipeline-gradle/
+  156  git branch
+  157  git branch mybranch
+  158  git branch
+  159  rm jenkinsfile 
+  160  cp ../Jenkinsfile Jenkinsfile 
+  161  git add .
+  162  git add  *
+  163  git status
+  164  git commit -m "New code added"
+  165  git config --global push.default simple
+  166  git push --set-upstream origin mybranch
+  167  git push --set-upstream origin master
+  168  clear
+  169  cd ..
+  170  git clone git@github.com:sivadevops1/ninja-dashboard.git
+  171  cd ninja-dashboard/
+  172  ls
+  173  clear
+  174  cat Jenkinsfile 
+  175  sudo less /etc/sysconfig/jenkins
+  176  sudo grep -i log /etc/sysconfig/jenkins
+  177  sudo vi /etc/sysconfig/jenkins
+  178  sudo systemctl status jenkins
+  179  clear
+  180  mvn test
+  181  clear
+  182  mvn clean install
+  183  clear
+  184  ls
+  185  cat Jenkinsfile 
+  186  man yum 
+  187  yum search maven
+  188  yum remove maven
+  189  sudo yum remove maven
+  190  clear
+  191  pwd
+  192  cd ..
+  193  git clone git@github.com:sivadevops1/cobol-unit-test.git
+  194  clear
+  195  cd cobol-unit-test/
+  196  ls
+  197  sudo update yum -y 
+  198  sudo yum update -y
+  199  cobc
+  200  clear
+  201  git clone https://github.com/neopragma/provision-cobol-dev-ubuntu
+  202  rm -r -y provision-cobol-dev-ubuntu
+  203  rm -r -f provision-cobol-dev-ubuntu
+  204  cd ..
+  205  git clone https://github.com/neopragma/provision-cobol-dev-ubuntu
+  206  clear
+  207  ls
+  208  cd provision-cobol-dev-ubuntu/
+  209  ls
+  210  ls -al
+  211  clear
+  212  ls -al
+  213  cat cobuild 
+  214    grep -i insta *
+  215    grep -i install *
+  216  clear
+  217    grep -ic install *
+  218  cat help.html
+  219  less help.html 
+  220  ls
+  221  cat setup 
+  222  clear
+  223  less setup
+  224  ./setup 
+  225  cobc
+  226  clear
+  227  cat setup 
+  228  clear
+  229  ls
+  230  less install_build_support
+  231  find . -name install_build_support
+  232  sudo -E apt-get -y -f install libgmp3-dev libtool libdb-dev ncurses-dev libncurses-dev
+  233  cd
+  234  sudo wget -O gnu-cobol.tar.gz http://sourceforge.net/projects/open-cobol/files/latest/download/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
+  235  tar xvfz gnu-cobol.tar.gz
+  236  tar tvf gnu-cobol.tar.gz
+  237  gunzip gnu-cobol.tar.gz
+  238  man gzip
+  239  clear
+  240  gunzip xvfz gnu-cobol.tar.gz
+  241  wget -O gnu-cobol.tar.gz http://sourceforge.net/projects/open-cobol/files/latest/download/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
+  242  sudo wget -O gnu-cobol.tar.gz http://sourceforge.net/projects/open-cobol/files/latest/download/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
+  243  sudo yum -y install libgmp3-dev libtool libdb-dev ncurses-dev libncurses-dev
+  244  sudo wget -O berkeley-db.tar.gz http://download.oracle.com/berkeley-db/db-6.1.19.tar.gz
+  245  tar xvfz berkeley-db.tar.gz
+  246  cd db-6.1.19
+  247  clear
+  248  cd build_unix && ../dist/configure    --prefix=/usr         --enable-compat185    --enable-dbm          --disable-static      --enable-cxx && make
+  249  less config.log
+  250  clear
+  251  sudo make docdir=/usr/share/doc/db-6.1.19 install && sudo chown -v -R root:root                              /usr/bin/db_*                                /usr/include/db{,_185,_cxx}.h                /usr/lib/libdb*.{so,la}                      /usr/share/doc/db-6.1.19
+  252  popd
+  253  cd build_unix && ../dist/configure    --prefix=/usr         --enable-compat185    --enable-dbm          --disable-static      --enable-cxx && make
+  254  cd ..
+  255  cd build_unix && ../dist/configure    --prefix=/usr         --enable-compat185    --enable-dbm          --disable-static      --enable-cxx && make
+  256  clear
+  257  sudo make docdir=/usr/share/doc/db-6.1.19 install && sudo chown -v -R root:root                              /usr/bin/db_*                                /usr/include/db{,_185,_cxx}.h                /usr/lib/libdb*.{so,la}                      /usr/share/doc/db-6.1.19
+  258  popd
+  259  sudo make docdir=/usr/share/doc/db-6.1.19 install && sudo chown -v -R root:root                              /usr/bin/db_*                                /usr/include/db{,_185,_cxx}.h                /usr/lib/libdb*.{so,la}                      /usr/share/doc/db-6.1.19
+  260  sudo make docdir=/usr/share/doc/db-6.1.19 install && sudo chown -v -R root:root                              /usr/bin/db_*                                /usr/include/db{,_185,_cxx}.h                /usr/lib/libdb*.{so,la}                      /usr/share/doc/db-6.1.19
+  261  popd
+  262  mkdir -p "$HOME/.cobol"
+  263  clear
+  264  pushd "$HOME/.cobol"
+  265  man pushd
+  266  sudo wget -O gnu-cobol.tar.gz http://sourceforge.net/projects/open-cobol/files/latest/download/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
+  267  tar xvfz gnu-cobol.tar.gz
+  268  sudo wget -O gnu-cobol.tar.gz https://sourceforge.net/projects/open-cobol/files/gnu-cobol/1.1/gnu-cobol-1.1.tar.gz
+  269  tar xvfz gnu-cobol.tar.gz
+  270  cd gnu-cobol-1.1/
+  271  clear
+  272  ls
+  273  ./config
+  274  ./configure 
+  275  ./configure --with-db
+  276  clear
+  277  make
+  278  make check > make-check-output
+  279  cat make
+  280  sudo make install
+  281  echo 'alias cobc="$HOME/.cobol/gnu-cobol-1.1/cobc/cobc $@"' >> "$HOME/.bash_aliases"
+  282  cobc
+  283  ls
+  284  ls -al
+  285  ls
+  286  cd
+  287  ls
+  288  cd provision-cobol-dev-ubuntu/
+  289  clear
+  290  ls
+  291   cd ..
+  292  clea
+  293  cd ~
+  294  clear
+  295  sudo yum install -y docker
+  296  clear
+  297  sudo systemctl enable docker
+  298  sudo systemctl start  docker
+  299  sudo systemctl status  docker
+  300  history | tail -20
+  301  ps -ef | grep docker
+  302  clear
+  303  sudo docker run hello-world
+  304  man docker
+  305  ps -ef | grep hello
+  306  sudo groupadd dockert
+  307  echo $USER
+  308  whoami
+  309  sudo usermod -aGdocker `whoami`
+  310  sudo usermod -aG docker `whoami`
+  311  sudo usermod -aG docker $USER
+  312  sudo groupadd docke
+  313  sudo groupadd docker
+  314  sudo usermod -aG docker $USER
+  315  clear
+  316  ls
+  317  clear
+  318  pwd
+  319  history 
+  320  sudo systemctl restart  docker
+  321  docker images
+  322  echo $PS1
+  323  PS1="[\u@\h \W Sys1]\$"
+  324  clear
+  325  sudo yum install -y open-cobol
+  326  sudo yum install -y gnu-cobol
+  327  docker build --help
+  328  history | grep cicd | grep git
+  329  cd ..
+  330  clear
+  331  ls
+  332  pwd
+  333  cd ~
+  334  clear
+  335  rm -r -f git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  336  ls
+  337  r- -r -f cicd-pipeline-gradle/
+  338  rm -r -f cicd-pipeline-gradle/
+  339  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  340  clear
+  341  git checkout -b mybranch
+  342  clear
+  343  cd cicd-pipeline-gradle/
+  344  clear
+  345  ls
+  346  ls -lrt
+  347  rm jenkinsfile 
+  348  clear
+  349  ls -lrt
+  350  vi Jenkinsfile 
+  351  vi Dockerfile
+  352  cat Dockerfile 
+  353  git status
+  354  clear
+  355  git add .
+  356  git status
+  357  git commit -m "New code added"
+  358  git config --global push.default simple
+  359  git push --set-upstream origin mybranch
+  360  ls
+  361  clear
+  362  ls
+  363  mv Dockerfile ../.
+  364  pwd
+  365  ls
+  366   rm -r cicd-pipeline-gradle
+  367  ls
+  368  cd ..
+  369  rm -r cicd-pipeline-gradle
+  370  ls
+  371  rm -r -f cicd-pipeline-gradle
+  372  mkdir docker-1
+  373  cd docker-1/
+  374  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  375  cp ../Dockerfile .
+  376  clear
+  377  ls
+  378  mv Dockerfile cicd-pipeline-gradle/.
+  379  clear
+  380  ls
+  381  cd cicd-pipeline-gradle/
+  382  sudo docker build -t sivadevops1/dcokerv1 .
+  383  docker images --help
+  384  docker images 
+  385  docker images
+  386  docker image
+  387  clear
+  388  ls
+  389  ls -al
+  390  docker image 
+  391  docker image ls
+  392  sudo docker image ls
+  393  docker build --help
+  394  docker image ls --help
+  395  docker image ls --all
+  396  sudo docker image ls --all
+  397  clear
+  398  docker run --help
+  399  docker run --help | less
+  400  sudo docker image -ls
+  401  sudo docker image ls
+  402  sudo docker run -p 8081:808 -d sivadevops1/dcokerv1
+  403  sudo docker ps
+  404  docker --help
+  405  sudo docker ps
+  406  docker stop --help
+  407  sudo docker stop 31dc0675f740
+  408  sudo docker ps
+  409  sudo docker run -p 8081:8080 -d sivadevops1/dcokerv1
+  410  sudo docker ps
+  411  sudo docker logs -f b86f93700c3f
+  412  docker logs --helps
+  413  docker logs --help
+  414  docker logs b86f93700c3f
+  415  sudo docker logs b86f93700c3f
+  416  history |grep docker
+  417  clear
+  418  ls
+  419  sudo docker ps
+  420  sudo docker run -P 8082:8080 -d sivadevops1/dcokerv1
+  421  ls
+  422  sudo docker ps
+  423  sudo docker b86f93700c3f
+  424  sudo docker exec -it b86f93700c3f bash
+  425  clear
+  426  history | grep sudo | grep docker
+  427  docker build --help
+  428  sudo docker image ls
+  429  sudo docker ps
+  430  sudo docker exec -it b86f93700c3f bash
+  431  clear
+  432  ls
+  433  git clone git@github.com:sivadevops1/DevopsData.git
+  434  cd DevopsData/
+  435  ls
+  436  cd data
+  437  ls
+  438  cp all_stocks.csv ~/.
+  439  cd
+  440  vi all_stocks.csv 
+  441  clear
+  442  npm install cobol
+  443  yum install open-cobol
+  444  sudo yum install open-cobol
+  445  sudo get --no-check "https://sourceforge.net/projects/open-cobol/files/gnu-cobol/2.0/gnu-cobol-2.0_rc-1.tar.gz/download"
+  446  sudo wget --no-check "https://sourceforge.net/projects/open-cobol/files/gnu-cobol/2.0/gnu-cobol-2.0_rc-1.tar.gz/download"
+  447  tar -xvf gnu-cobol-2.0_rc-1.tar.gz
+  448  ls
+  449  ls -lrt
+  450  date
+  451  clear
+  452  ls
+  453  ls -la
+  454  ls -lrt
+  455  rm download 
+  456  rm gnu-cobol.tar.gz 
+  457  rm Jenkinsfile 
+  458  rm -rf  db-6.1.19/
+  459  ls -al
+  460  clear
+  461  ls -al
+  462  clear
+  463  ls -lrt
+  464  rm -r temp
+  465  clear
+  466  sudo wget --no-check "https://sourceforge.net/projects/open-cobol/files/gnu-cobol/2.0/gnu-cobol-2.0_rc-1.tar.gz/download"
+  467  ls -lrt
+  468  tar tvf download
+  469  tar -xvf download 
+  470  ls -l
+  471  cd gnu-cobol-2.0/
+  472  clear
+  473  ls
+  474  sudo ./configue
+  475  sudo ./configure
+  476  ./configure CPPFLAGS="-I /path/to/correct/gmp_h
+  477  ./configure CPPFLAGS="-I /path/to/correct/gmp_h"
+  478  sudo ./configure CPPFLAGS="-I /path/to/correct/gmp_h"
+  479  vi configure.h
+  480  ls
+  481  cat configure
+  482  less configure
+  483  !
+  484  clear
+  485  sudo ./configure --without-db
+  486  make
+  487  make check
+  488  sudo ./configure --prefix=/usr --libdir=/usr/lib64 --with-db --with-pic --with-varseq=1 CFLAGS="-m64" LDFLAGS="-m64"
+  489  makesudo yum install gmp
+  490  sudo yum install gmp
+  491  yum install gmp gmp-devel libtool ncurses ncurses-devel ncurses-libs make
+  492  sudo yum install gmp gmp-devel libtool ncurses ncurses-devel ncurses-libs make
+  493  sudo yum install libdbi libdbi-devel libtool-ltdl libtool-ltdl-devel db4 db4-devel
+  494  clear
+  495  ls
+  496  ./configure 
+  497  sudo ./configure
+  498  sudo ./configure --without-db
+  499  make
+  500  sudo make
+  501  clear
+  502  sudo make check
+  503  sudo make test
+  504  sudo ldconfig    
+  505  cobc 
+  506  ./cobc
+  507  cd ..
+  508  find . -name cobc
+  509  cdgnu-cobol-2.0
+  510  cd gnu-cobol-2.0
+  511  ls
+  512  ls -al
+  513  cd cobc
+  514  ls -l
+  515  cat cobc
+  516     clear
+  517  pwd
+  518  cd
+  519  mkdir test
+  520  cd test
+  521  clear
+  522  docker pull gregcoleman/docker-cobol
+  523  ls
+  524  docker image
+  525  docker images ls
+  526  sudo docker images ls
+  527  ls
+  528  ls -al
+  529  docker images 
+  530  history | grep docker
+  531  docker images 
+  532  sudo docker run docker.io/gregcoleman/docker-cobol
+  533  sudo docker ls
+  534  sudo docker ps
+  535  sudo docker run -d docker.io/gregcoleman/docker-cobol
+  536  sudo docker ps
+  537  docker ps
+  538  sudo docker run -d docker.io/gregcoleman/docker-cobol
+  539  sudo docker ps
+  540  clear
+  541  sudo docker run -d docker.io/gregcoleman/docker-cobol
+  542  sudo docker ps
+  543  sudo docker run  docker.io/gregcoleman/docker-cobol
+  544  sudo docker ps
+  545  sudo docker run  docker.io/gregcoleman/docker-cobol --stacktrace
+  546  docker images
+  547  docker images -a
+  548  clear
+  549  pwd
+  550  cd ..
+  551  clear
+  552  ls
+  553  cd docker-1/
+  554  ls
+  555  cd cicd-pipeline-gradle/
+  556  ls
+  557  cat Dockerfile 
+  558  cd ..
+  559  ls
+  560  cd ..
+  561  mkdir docker-2
+  562  cd docker-2
+  563  clear
+  564  ls
+  565  vi Dockerfile
+  566  sudo docker build -t sivadevops1/dcokerv2-cob .
+  567  ls
+  568  sudo docker images
+  569  sudo docker images -a
+  570  clear
+  571  sudo docker images -a
+  572  sudo docker images 
+  573  sudo docker run -d sivadevops1/dcokerv2-cob
+  574  sudo less /var/log/daemon.log 
+  575  journalctl  
+  576  journalctl  -u docker.service
+  577  date
+  578  journalctl  -u docker.service
+  579  journalctl 
+  580  date
+  581  clear
+  582  pwd
+  583  sudo wget http://sourceforge.net/projects/open-cobol/files/gnu-cobol/3.0/gnucobol-3.0-rc1.tar.gz
+  584  clear
+  585  sudo tar xvf gnucobol-3.0.tar.gz
+  586  ls
+  587  sudo tar xvf gnucobol-3.0-rc1.tar.gz
+  588  clear
+  589  cd gnu-cobol-3.0
+  590  ls
+  591  cd gnucobol-3.0-rc1
+  592  sudo ./configure
+  593  sudo ./configure --without-db
+  594  sudo make
+  595  clear
+  596  sudo make check
+  597  sudo sudo make install
+  598  sudo make install
+  599  clear
+  600  sudo ldconfig
+  601  clear
+  602  cobc -V
+  603  history | tail -20
+  604  history | tail -40
+  605  sudo docker images
+  606  sudo docker ps
+  607  sudo docker run -p 8081:8080 -d sivadevops1/dcokerv1
+  608  sudo docker run -d sivadevops1/dcokerv1
+  609  sudo docker run -d docker.io/hello-world
+  610  sudo docker run -p 8081:8080 -d sivadevops1/dcokerv1
+  611  sudo docker ps
+  612  history | grep bash
+  613  sudo docker exec -it 1ab218423a68 bash
+  614  clear
+  615  sudo docker ps
+  616  docker --help
+  617  sudo docker ps
+  618  sudo docker stop 1ab218423a68
+  619  sudo docker ps
+  620  clear
+  621  cobc -V
+  622  clear
+  623  pwd
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  clear
+  629  cobc -V
+  630  clear
+  631  ls
+  632  ls -l
+  633  cd cobol-unit-test/
+  634  clear
+  635  ls
+  636  ls -l
+  637  sudo ./compile SAMPLE
+  638  cp envvars.example envvars
+  639  sudo ./compile SAMPLE
+  640  cobc -V
+  641   ./compile SAMPLE
+  642  cat envvars
+  643   ./compile SAMPLE
+  644  lsb_release -a
+  645  sudo cat /etc/lsb-release
+  646  sudo ls /etc
+  647  sudo ls /etc | grep -i rel
+  648  cat /etc/centos-release
+  649  sudo docker ps
+  650  history | grep exec | grep docker
+  651  sudo docker exec -it b86f93700c3f bash
+  652  ls
+  653  clear
+  654  ls
+  655  cat compile
+  656  less compile
+  657  ls
+  658  vi test.cobb
+  659  mv test.cobb test.cob
+  660  cobc -x test.cob
+  661  vi test.cob
+  662  cobc -x test.cob
+  663  find . -name SAMPLE
+  664  ls SAMPLE*
+  665  ls -l SAMPLE
+  666  SAMPLE
+  667  ./SAMPLE
+  668  find . -name SAMPLE*
+  669  clear
+  670  ls
+  671  ls -l
+  672  cd src
+  673  ls
+  674  cd main/cobol
+  675  ls
+  676  clear
+  677  less SAMPLE.CBL 
+  678  cobc -x SAMPLE.CBL
+  679  ls
+  680  cat SAMPLE
+  681  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+  682  clear
+  683  ls
+  684  cat SAMPLE.CBL
+  685  vi SAMPLE.CBL
+  686  rm SAMPLE
+  687  cobc -x SAMPLE.CBL
+  688  mv SAMPLE SAMPLE.COB
+  689  clear
+  690  ls
+  691  clear
+  692  ls
+  693  runcob SAMPLE.COB -k
+  694  cd ../../
+  695  cd ..
+  696  s
+  697  clear
+  698  ls
+  699  less compile 
+  700  find / -name runcob 2>/dev/null 
+  701  cd src/main/cobol/
+  702  ls
+  703  ls -l SAMPLE.C
+  704  ls -l SAMPLE.C*
+  705  ./SAMPLE.COB 
+  706  cd ../../..
+  707  ls
+  708  rm -r SAMPLE
+  709  less compile
+  710  vi compile
+  711  cd src/main/cobol/
+  712  ls
+  713  cobc -x -free SAMPLE.CBL
+  714  less SAMPLE.CBL
+  715  cobc -free SAMPLE.CBL
+  716  cat SAMPLE.CBL
+  717  history 
+  718  cd
+  719  pwd
+  720  ls
+  721  ls -l
+  722  rm all_stocks.csv 
+  723  rm berkeley-db.tar.gz
+  724  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+  725  ls
+  726  cd cicd-pipeline-gradle/
+  727  history > history.txt.2018-12-13th
+  728  ls
+  729  git status
+  730  clear
+  731  git add .
+  732  git status
+  733  git commit -m "History file added"
+  734  git branch
+  735  git push --set-upstream origin master
+  736  clear
+  737  pwd
+  738  ls
+  739  cobc -V
+  740  clear
+  741  history | grep yum 
+  742  clear
+  743  pwd
+  744  ls
+  745  cd Dockerfile 
+  746  ls -lrt 
+  747  cd cobol-unit-test/
+  748  ls
+  749  ./compile SAMPLE
+  750  sudo ./compile SAMPLE
+  751   cobc -x -std=ibm ./src/main/cobol/SAMPLE.CBL
+  752  ls -lrt
+  753  ./SAMPLE
+  754  man ldconfig 
+  755  sudo ldconfig 
+  756  echo $?
+  757  clear
+  758  ./SAMPLE
+  759  ls
+  760  cat test.cob
+  761  cd ..
+  762  cd gnu-cobol-2.0/
+  763  ls
+  764  ./configure --with-vbisam
+  765  sudo ./configure --with-vbisam
+  766  sudo ./configure --without-db
+  767  sudo make
+  768  sudo make check
+  769  sudo make install
+  770  sudo ldconfig
+  771  cobc -V
+  772  history | grep cobc
+  773  cobc -x -std=ibm ./src/main/cobol/SAMPLE.CBL
+  774  cd ..
+  775  ls
+  776  cd cobol-unit-test/
+  777  cobc -x -std=ibm ./src/main/cobol/SAMPLE.CBL
+  778  ls
+  779  ls -lrt
+  780  ./SAMPLE
+  781  ls -la /usr/local/lib
+  782  cobc -V
+  783  ls /usr/local/
+  784  echo $LD_LIBRARY_PATH
+  785  ldd
+  786  ldd cobc
+  787  ldd SAMPLE
+  788  find /lib64 -name libc.so*
+  789  sudo ls /usr/local/lib64
+  790  sudo ls /usr/local/lib64/*
+  791  ls /usr/local/
+  792  cd /usr/local/
+  793  cd lib64
+  794  ls -al
+  795  sudo ls -al
+  796  cd ..
+  797  ls
+  798  cd lib
+  799  ls -al
+  800  cd ~/cobol-unit-test
+  801  ldd SAMPLE
+  802  echo $PATH
+  803  export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+  804  ./SAMPLE
+  805  clear
+  806  history | ls
+  807  clear
+  808  pwd
+  809  docker images
+  810  cd docker-cobol/
+  811  ls
+  812  history | grep exec
+  813  docker containers ps
+  814  docker containers
+  815  docker container
+  816  docker container ls
+  817  clear
+  818  ls
+  819  history | grep exec
+  820  history | grep run
+  821  docker images
+  822  sudo docker run -d sivadevops1/centoscobol
+  823  sudo docker container ls
+  824  sudo docker container ls -a
+  825  sudo docker container ls -a | less
+  826  sudo docker run -p 3000:8080 -d sivadevops1/centoscobol
+  827  sudo docker container
+  828  sudo docker ps
+  829  docker image history --no-trunc
+  830  clear
+  831  cd
+  832  git clone git@github.com:Buffer0x7cd/jenkins-docker.git
+  833  cd jenkins-docker/
+  834  ls
+  835  clear
+  836  cat Dockerfile 
+  837  clear
+  838  ls
+  839  cat Dockerfile 
+  840  cat README.md 
+  841  history | grep build | grep docker
+  842  sudo docker build -t sivadevops1/dockerjenkins
+  843  sudo docker build -t sivadevops1/dockerjenkins .
+  844  sudo docker images
+  845  sudo docker images rm docker.io/gregcoleman/docker-cobol
+  846  sudo docker images --help
+  847  sudo docker  --help
+  848  sudo docker images
+  849  sudo docker rmi docker.io/gregcoleman/docker-cobol
+  850  sudo docker container stop a07af9b5c12a
+  851  sudo docker rmi docker.io/gregcoleman/docker-cobol
+  852  sudo docker rmi -f docker.io/gregcoleman/docker-cobol
+  853  sudo docker images
+  854  sudo docker images rmi 24f76ba1486e
+  855  sudo docker images rmi docker.io/ubuntu
+  856  sudo docker images rmi -f docker.io/ubuntu
+  857  sudo docker rmi -f docker.io/ubuntu
+  858  clear
+  859  sudo docker images
+  860  history | grep run
+  861  sudo docker run -d sivadevops1/dockerjenkins -p 9090:8080
+  862  sudo docker container ls
+  863  sudo docker ps
+  864  docker ps
+  865  docker service logs
+  866  clear
+  867  sudo docker ps -a
+  868  sudo docker ps -a | grep jenkins
+  869  sudo docker logs -f e045f59c6683
+  870  sudo docker run -p 9090:8080 -d sivadevops1/dockerjenkins 
+  871  sudo docker container ps
+  872  clear
+  873  sudo docker images
+  874  sudo docker rmi -f 24f76ba1486e
+  875  sudo docker rmi -f 4cfeeb4c5df1
+  876  sudo docker images
+  877  clear
+  878  sudo docker images
+  879  sudo docker rmi -f b967b7f087ce
+  880  sudo docker rmi -f 5dd2559cd9ff
+  881  sudo docker rmi -f 0627a65db04e
+  882  clear
+  883  history | grep exec
+  884  sudo docker container ps
+  885  sudo docker exec -it 38d39eaf010d bash
+  886  ls -l /var/run/dockersock
+  887  sudo ls -l /var/run/docker.sock
+  888  sudo cat  /var/run/docker.sock
+  889  sudo docker container ps
+  890  sudo docker exec -it 38d39eaf010d bash
+  891  sudo docker images
+  892  sudo docker images rmi -f sivadevops1/dockerjenkins
+  893  sudo docker rmi -f sivadevops1/dockerjenkins
+  894  sudo docker images
+  895  sudo docker rmi -f 603538d20a16
+  896  sudo container ps
+  897  sudo docker container ps
+  898  docker images 
+  899  docker images  rmi -f 603538d20a16
+  900  sudo docker images  rmi -f 603538d20a16
+  901  sudo docker build -t sivadevops1/dockerjenkinsv1 .
+  902  sudo docker container ps
+  903  sudo docker container stop 38d39eaf010d
+  904  sudo docker container ps
+  905  sudo docker images
+  906  history | grep run | grep docker
+  907  sudo docker run -d -p 9090:8080  -v /var/run/docker.sock:/var/run/docker.sock sivadevops1/dockerjenkinsv1
+  908  sudo container ps
+  909  sud docker container ps
+  910  sudo  docker container ps
+  911  sudo docker exec -it 6bfd1322784e bash
+  912  sudo container ps
+  913  sudo docker container ps
+  914  sudo docker container stop 6bfd1322784e
+  915  ls
+  916  sudo docker run -d -p 9090:8080  -v /var/run/docker.sock:/var/run/docker.sock -v /home/centos/:/home/centos sivadevops1/dockerjenkinsv1
+  917  sudo docker container ps
+  918  sudo docker exec -it c7d9bb3f72c3  bash
+  919  docker login
+  920  docker images
+  921  docker push sivasunku/dockerjenkinsv1
+  922  clear
+  923  vi cluster-setup.sh
+  924  vim cluster-setup.sh 
+  925  cd
+  926  cd cicd-pipeline-gradle/
+  927  ls
+  928  history > history.txt.2018-12-14th
