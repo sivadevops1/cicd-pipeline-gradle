@@ -1,0 +1,192 @@
+
+
+git@github.com:sivadevops1/zipline2.git
+
+[centos@ip-10-0-1-182 ~]$ cat siva.samp
+    4  sudo yum install -y git
+    5  git --version
+    6  git  config --global user.name Siva.Sunku
+    7  git  config --global user.email siva.sunku.public@gmail.com
+   19  git clone git@github.com:sivadevops1/cicd-pipeline-gradle.git
+   22  git checkout -b mybranch
+   23  git status
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m "New code added"
+   30  git push
+   31  git config --global push.default simple
+   32  git push --set-upstream origin mybranch
+
+
+
+[centos@ip-10-0-1-144 cicd-pipeline-gradle]$ history |grep sudo
+    4  sudo yum install -y git
+   55  sudo yum -y install unzip java-1.8.0-openjdk
+   56  sudo yum -y install unzip java-1.8.0-openjdk java -version
+  141  sudo yum -y install epel-release
+  143  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+  147  sudo yum -y install wget
+  148  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+  151  sudo rpm --import https://jenkins-ci.org/redhatjenkin
+  152  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+  153  sudo yum -y install -y jenkins-2.121.1
+  155  sudo systemctl enable jenkins
+  156  sudo systemctl start  jenkins
+
+Jenkins run on 8080 port - 34.214.126.86:8080
+Jenkins Token:e610dc6131b04fcda4abaccfe9899a42
+
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+Options:
+      --add-host list                         Add a custom host-to-IP mapping (host:ip) (default [])
+  -a, --attach list          [centos@ip-10-0-1-11 cicd-pipeline-gradle Sys1]$history |grep docker
+  260  sudo yum install -y docker
+  262  sudo systemctl enable docker
+  263  sudo systemctl start  docker
+  264  sudo systemctl status  docker
+  266  ps -ef | grep docker
+  268  sudo docker run hello-world
+  269  man docker
+  271  sudo groupadd dockert
+  274  sudo usermod -aGdocker `whoami`
+  275  sudo usermod -aG docker `whoami`
+  276  sudo usermod -aG docker $USER
+  278  sudo groupadd docker
+  279  sudo usermod -aG docker $USER
+  285  sudo systemctl restart  docker
+  286  docker images
+  292  docker build --help
+  337  mkdir docker-1
+  338  cd docker-1/
+  347  sudo docker build -t sivadevops1/dcokerv1 .
+  348  docker images --help
+  349  docker images
+  350  docker images
+  351  docker image
+  355  docker image
+  356  docker image ls
+  357  sudo docker image ls
+  358  docker build --help
+  359  docker image ls --help
+  360  docker image ls --all
+  361  sudo docker image ls --all
+  363  docker run --help
+  364  docker run --help | less
+  365  sudo docker image -ls
+  366  sudo docker image ls
+  367  sudo docker run -p 8081:808 -d sivadevops1/dcokerv1
+  368  sudo docker ps
+  369  docker --help
+  370  sudo docker ps
+  371  docker stop --help
+  372  sudo docker stop 31dc0675f740
+  373  sudo docker ps
+  374  sudo docker run -p 8081:8080 -d sivadevops1/dcokerv1
+  375  sudo docker ps
+  376  sudo docker logs -f b86f93700c3f
+  377  docker logs --helps
+  378  docker logs --help
+  379  docker logs b86f93700c3f
+  380  sudo docker logs b86f93700c3f
+  381  history |grep docker
+sudo docker exec -it b86f93700c3f bash
+[centos@ip-10-0-1-11 cicd-pipeline-gradle Sys1]$
+
+
+                 Attach to STDIN, STDOUT or STDERR (default [])
+
+
+
+
+
+ 260  sudo yum install -y docker
+  261  clear
+  262  sudo systemctl enable docker
+  263  sudo systemctl start  docker
+  264  sudo systemctl status  docker
+
+
+Server IP - 54.190.176.203
+
+https://jenkins.io/doc/pipeline/tour/running-multiple-steps/
+https://jenkins.io/pipeline/getting-started-pipelines/
+
+
+
+Install COBOL
+=====================================
+sudo yum -y install libgmp3-dev libtool libdb-dev ncurses-dev libncurses-dev
+sudo yum install gmp gmp-devel libtool ncurses ncurses-devel ncurses-libs make
+sudo yum install libdbi libdbi-devel libtool-ltdl libtool-ltdl-devel db4 db4-devel
+
+583  sudo wget http://sourceforge.net/projects/open-cobol/files/gnu-cobol/3.0/gnucobol-3.0-rc1.tar.gz
+  584  clear
+  585  sudo tar xvf gnucobol-3.0.tar.gz
+  586  ls
+  587  sudo tar xvf gnucobol-3.0-rc1.tar.gz
+  588  clear
+  589  cd gnu-cobol-3.0
+  590  ls
+  591  cd gnucobol-3.0-rc1
+  593  sudo ./configure --without-db
+  594  sudo make
+  595  clear
+  596  sudo make check
+  597  sudo sudo make install
+  598  sudo make install
+  599  clear
+  600  sudo ldconfig
+  601  clear
+  602  cobc -V
+
+
+
+#give an official Python runtime as a parent image
+FROM  node:carbon
+
+# Set the working directory to /app
+WORKDIR /usr/src/app
+
+# Copy the current directory contents into the container at /app
+COPY package*.json ./
+
+# Install any needed packages specified in requirements.txt
+RUN npm install
+COPY . .
+
+# Make port 80 available to the world outside this container
+EXPOSE 8080
+
+# Run app.py when the container launches
+CMD ["npm", "start"]
+
+
+docker build -t friendlyhello .  # Create image using this directory's Dockerfile
+docker run -p 4000:80 friendlyhello  # Run "friendlyname" mapping port 4000 to 80
+docker run -d -p 4000:80 friendlyhello         # Same thing, but in detached mode
+docker container ls                                # List all running containers
+docker container ls -a             # List all containers, even those not running
+docker container stop <hash>           # Gracefully stop the specified container
+docker container kill <hash>         # Force shutdown of the specified container
+docker container rm <hash>        # Remove specified container from this machine
+docker container rm $(docker container ls -a -q)         # Remove all containers
+docker image ls -a                             # List all images on this machine
+docker image rm <image id>            # Remove specified image from this machine
+docker image rm $(docker image ls -a -q)   # Remove all images from this machine
+docker login             # Log in this CLI session using your Docker credentials
+docker tag <image> username/repository:tag  # Tag <image> for upload to registry
+docker push username/repository:tag            # Upload tagged image to registry
+docker run username/repository:tag                   # Run image from a registry
+docker exec -it c7d9bb3f72c3  bash   #get into the docker container.
+
+KUBERNETES
+==========
+
+
+
+
