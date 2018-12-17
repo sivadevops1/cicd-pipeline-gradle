@@ -5,8 +5,9 @@ stages {
  steps {
  script {
     checkout scm
-
-     sh 'yum  install -y default-jdk'
+     sh 'yum -y install wget'
+     sh 'wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo'
+     sh 'yum -y install unzip java-1.8.0-openjdk'
      sh 'yum install -y maven'
   
      }
