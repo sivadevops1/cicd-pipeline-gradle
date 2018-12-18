@@ -3,7 +3,7 @@
 sudo yum -y install git
 ssh-keygen -t rsa -b 4096
 #For changing the PS1
-#$PS1="[\u@\h \W SYS2] \$"
+#export PS1="[\u@\h \W SYS2] \$""
 
 git --version
 git config --global user.name Siva.Sunku
