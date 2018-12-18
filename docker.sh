@@ -5,6 +5,9 @@
 #Install docker
 sudo yum install -y docker
 
+#For AWS centos
+ sudo amazon-linux-extras install docker
+
 #Check version
 docker --version
 
