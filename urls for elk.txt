@@ -1,6 +1,0 @@
-
-
-https://blog.ptrk.io/how-to-deploy-an-efk-stack-to-kubernetes/
-udemy
-https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
-https://akomljen.com/get-kubernetes-logs-with-efk-stack-in-5-minutes/
